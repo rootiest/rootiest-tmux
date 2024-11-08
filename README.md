@@ -56,7 +56,20 @@ The rootiest Tmux configuration you will ever see!
    git clone https://github.com/rootiest/rootiest-tmux.git ~/.config/tmux
    ```
 
-4. **Enjoy!** 🎉
+4. Install [TmuxPluginManager (TPM)](https://github.com/tmux-plugins/tpm)
+
+   ```bash
+   git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+   ```
+
+5. Install [the Catppuccin theme](https://github.com/catppuccin/tmux)
+
+   ```bash
+   mkdir -p ~/.config/tmux/plugins/catppuccin
+   git clone -b v2.1.0 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+   ```
+
+6. **Enjoy!** 🎉
 
 ## Features
 
